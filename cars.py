@@ -6,7 +6,7 @@ import numpy as np
 from sort import *
 
 cap = cv2.VideoCapture('cars-video.mp4')
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("yolov8n.pt")
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
               "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
